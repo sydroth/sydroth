@@ -1,5 +1,28 @@
 body {
   background-color: black;
+}
+
+.tite {
   color: teal;
   font-size: 50px;
+}
+
+.padded {
+  padding: 20px;
+}
+
+.title1 {
+  text-align: center;
+  background: gray;
+  color: white;
+  mix-blend-mode: multiply;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url(../img/spacecat.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
 }
