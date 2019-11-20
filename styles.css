@@ -1,28 +1,58 @@
-body {
-  background-color: black;
-}
-
-.tite {
-  color: teal;
-  font-size: 50px;
-}
-
-.padded {
-  padding: 20px;
-}
-
-.title1 {
-  text-align: center;
-  background: gray;
-  color: white;
-  mix-blend-mode: multiply;
-}
-
-.jumbotron {
-  margin-bottom: 0px;
-  background-image: url(../img/spacecat.jpg);
-  background-position: 0% 25%;
+html {
+  background: white;
   background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 0 !important;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+body {
+}
+
+h1 {
+  color: black;
+  font-size: 3vw;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font: 'Proxima Nova', sans-serif;
+  color: black;
+  font-size: 1.5vw;
+  font-weight: normal;
+}
+
+p {
+  font: 'Garamond', serif;
+  color: black;
+  font-size: 1.3vw;
+}
+
+.container {
+  display: block;
+  text-align: center;
+}
+
+.title-line {
+  border-top: .1vw solid black;
+}
+
+
+.cat-box {
+  width: 15%;
+  border: black;
+  border-size: 2px;
+  font: 'Garamond', serif;
+  font-size: 2vw;
+  text-align: center;
+  text-overflow: none;
+  display: inline-block;
+  padding: 5%;
+}
+
+.cat-line {
+  border-top: .1vw solid black;
+  width: 90%;
+  padding: 5%;
+  border-style: 
 }
