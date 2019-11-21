@@ -1,11 +1,16 @@
-<!DOCTYPE html><html lang="en"><head><style>html {
-  background: white;
-  background-size: cover;
-  margin-left: 3%;
-  margin-right: 3%;
+<!DOCTYPE html><html lang="en"><head><style>.html-back {
+  background: linear-gradient(180deg, rgba(91,98,54,.8), rgba(91,98,54,0) 5%),
+              linear-gradient(0deg, rgba(91,98,54,.8), rgba(91,98,54,0) 5%),
+              linear-gradient(270deg, rgba(91,98,54, .8), rgba(91,98,54,0) 5%),
+              linear-gradient(90deg, rgba(91,98,54,.8), rgba(91,98,54,0) 5%);
+  background-size: contain; 
+  background-repeat: no-repeat; 
+
 }
 
 body {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 h1 {
@@ -34,7 +39,10 @@ p {
 }
 
 .title-line {
-  border-top: .1vw solid black;
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #8c8b8b, #f0f0f0, #ffffff);
+
 }
 
 
@@ -43,7 +51,7 @@ p {
   border: black;
   border-size: 2px;
   font: 'Garamond', serif;
-  font-size: 2vw;
+  font-size: 1.8vw;
   text-align: center;
   text-overflow: none;
   display: inline-block;
@@ -51,9 +59,29 @@ p {
 }
 
 .cat-line {
-  border-top: .1vw solid black;
-  width: 90%;
-  padding: 5%;
-  border-style: 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
 }
-<script src="https://fonts.googleapis.com/css?family=Proxima+Nova&amp;display=swap"></script></style></head><body><h1>Syd Rothman</h1><div class="title-line"></div><h2>data scientist focused on football analytics // currently seeking spring 2020 opportunities</h2><br><br><br><br><div class="container"><div class="cat-box">Football Analytics<p>General description of what I do in football analytics and what I’m interested in.</p><div class="cat-line"></div></div><div class="cat-box">Data Science<p>Portfolio of my data projects and a brief listing of my languages and skills.</p><div class="cat-line"></div></div><div class="cat-box">Web Dev<p>This just contains my tiny portfolio of web dev work, this is mostly for side hustles.</p><div class="cat-line"></div></div><div class="cat-box">Citizen Science<p>As much doc as possible on anything I contribute too- especially space stuff.</p><div class="cat-line"></div></div></div></body></html>
+
+
+.shelved-border-attempt {
+  background: linear-gradient(180deg, rgba(91,98,54,.8), rgba(91,98,54,0) 5%),
+              linear-gradient(0deg, rgba(91,98,54,.8), rgba(91,98,54,0) 5%),
+              linear-gradient(270deg, rgba(91,98,54, .8), rgba(91,98,54,0) 5%),
+              linear-gradient(90deg, rgba(91,98,54,.8), rgba(91,98,54,0) 5%);
+  background-size: cover;
+
+}           <script src="https://fonts.googleapis.com/css?family=Proxima+Nova&amp;display=swap"></script></style></head><body><h1>Syd Rothman</h1><div class="title-line"></div><h2>data scientist focused on football analytics // currently seeking spring 2020 opportunities</h2><br><br><br><br><div class="container"><div class="cat-box">Football Analytics<p>General description of what I do in football analytics and what I’m interested in.</p><div class="cat-line"></div></div><div class="cat-box">Data Science<p>Portfolio of my data projects and a brief listing of my languages and skills.</p><div class="cat-line"></div></div><div class="cat-box">Web Dev<p>This just contains my tiny portfolio of web dev work, this is mostly for side hustles.</p><div class="cat-line"></div></div><div class="cat-box">Citizen Science<p>As much doc as possible on anything I contribute too- especially space stuff and enviro sci.</p><div class="cat-line"></div></div></div></body></html><!--		ol	li apple
+	li banana
+	li carrot
+
+p In order to link to another page on the site we use
+	p a(href aboutme.pug) Projects
+
+a(href google.com, target=_blank) Google Man
+
+p the target attribute opens link in new tab-->
