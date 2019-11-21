@@ -1,0 +1,21 @@
+{
+  "name": "sydroth",
+  "version": "1.0.0",
+  "description": "syd rothman portfolio site",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sydroth.git"
+  },
+  "author": "syd roth",
+  "license": "ISC",
+  "dependencies": {
+    "javascript": "^1.0.0",
+    "php": "0.0.1",
+    "pug": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
